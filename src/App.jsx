@@ -6,14 +6,14 @@ import Movies from "./Movies";
 
 const API_URL = "http://www.omdbapi.com?apikey=50bf1373";
 
-const sample = {
-  Title: "Working Title",
-  Year: "1992",
-  imdbID: "tt0250823",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BMTAwMDQwMjAwMDBeQTJeQWpwZ15BbWU3MDc4NTAyNTc@._V1_SX300.jpg",
-};
+// const sample = {
+//   Title: "Working Title",
+//   Year: "1992",
+//   imdbID: "tt0250823",
+//   Type: "movie",
+//   Poster:
+//     "https://m.media-amazon.com/images/M/MV5BMTAwMDQwMjAwMDBeQTJeQWpwZ15BbWU3MDc4NTAyNTc@._V1_SX300.jpg",
+// };
 
 const App = () => {
   const [movies, setmovies] = useState([]);

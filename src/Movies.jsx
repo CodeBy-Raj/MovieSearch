@@ -15,10 +15,9 @@ const Movies = ({sample}) => {
             <span>{sample.Type}</span>
             <h3>{sample.Title}</h3>
           </div>
-        </div>
-     
+        </div>  
   )
 }
 
-export default Movies
+export default Movies;
 
